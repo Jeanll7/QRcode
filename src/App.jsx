@@ -36,7 +36,7 @@ function App() {
         onChange={ (e) => handleQrcode(e)}
       />
 
-      <a href={qrcodeLink} download={`qrcode.png`}>Baixar QrCode</a>
+      <a className="download" href={qrcodeLink} download={`qrcode.png`}>Baixar QrCode</a>
 
     </div>
   )
